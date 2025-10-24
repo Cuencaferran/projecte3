@@ -64,11 +64,11 @@ Un cop dintre per exportar la caixa forta posem el nostre correu i exportem la c
 
 ![foto](img/bitwarden12.jpg)
 
-posem una contrasenya robusta, i confiemem l’exportació 
+posem una contrasenya robusta, i confirmem l’exportació 
 
 ![foto](img/bitwarden13.jpg)
 
-I ens descarreguem al pen tot el treballa de bitwarden i tota la instl·lació. 
+I ens descarreguem al pen tot el treball de bitwarden i tota l'instl·lació. 
 
 
 
