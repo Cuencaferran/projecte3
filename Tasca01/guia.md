@@ -40,3 +40,11 @@ Una vegada complerts tots els apartats cliquem a guardar i ja tindrem la nostre 
 
 He hagut de buscar al chrome l'extensió del bitwarden i afegir-la al google chrome per poder fer aquest pas. 
 
+Després iniciem sessió amb el mateix correu y contrasenya que hem utilitzat anteriorment
+
+![foto](img/bitwarden7.jpg)
+
+Y ja tindrem bitwarden com una extensió.
+
+
+
