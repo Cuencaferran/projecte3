@@ -22,11 +22,19 @@ Com desar una credencial d'un compte de correu electrònic.
 
 ![foto](img/bitwarden4.jpg)
 
+Clica el botó “+” per afegir una nova entrada.
+
+Selecciona l’opció “Inici de sessió”.
+
+Introdueix la informació del compte (usuari, contrasenya, URL, etc.) als camps requerits.
+
+Desa la credencial per guardar-la de forma segura.
+
 Com desar una credencial d'una aplicació o servei web.
 
 ![foto](img/bitwarden5.jpg)
 
-Com fer servir l’extensió del navegador per emplenar automàticament les dades.
+Una vegada complerts tots els apartats cliquem a guardar i ja tindrem la nostre credencial d'un compte de correu.
 
 ![foto](img/bitwarden6.jpg)
 
