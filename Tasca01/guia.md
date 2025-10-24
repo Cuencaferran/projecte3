@@ -40,11 +40,11 @@ Una vegada complerts tots els apartats cliquem a guardar i ja tindrem la nostre 
 
 He hagut de buscar al chrome l'extensió del bitwarden i afegir-la al google chrome per poder fer aquest pas. 
 
-Després iniciem sessió amb el mateix correu y contrasenya que hem utilitzat anteriorment
+Gestió de Còpies de Seguretat (Backup):
 
-![foto](img/bitwarden7.jpg)
+Explicació detallada de com fer una còpia de seguretat de l'arxiu de contrasenyes (KDBX en KeePass o Exportació en Bitwarden).
 
-Y ja tindrem bitwarden com una extensió.
+
 
 
 
