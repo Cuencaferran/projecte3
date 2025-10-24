@@ -44,6 +44,35 @@ Gestió de Còpies de Seguretat (Backup):
 
 Explicació detallada de com fer una còpia de seguretat de l'arxiu de contrasenyes (KDBX en KeePass o Exportació en Bitwarden).
 
+Gestió de Còpies de Seguretat (Backup):
+
+Explicació detallada de com fer una còpia de seguretat de l'arxiu de contrasenyes (KDBX en KeePass o Exportació en Bitwarden).
+
+![foto](img/bitwarden9.jpg)
+
+Recomanació de la millor pràctica per emmagatzemar aquesta còpia de seguretat de forma segura (clau USB xifrada o emmagatzematge xifrat al núvol).
+
+![foto](img/bitwarden10.jpg)
+
+Li donem a fitxer adalt a l’esquerra i exportem la caixa forta del bitwarden. 
+
+
+![foto](img/bitwarden11.jpg)
+
+Un cop dintre per exportar la caixa forta posem el nostre correu i exportem la caixa forta.
+
+
+![foto](img/bitwarden12.jpg)
+
+posem una contrasenya robusta, i confiemem l’exportació 
+
+![foto](img/bitwarden13.jpg)
+
+I ens descarreguem al pen tot el treballa de bitwarden i tota la instl·lació. 
+
+
+
+
 
 
 
