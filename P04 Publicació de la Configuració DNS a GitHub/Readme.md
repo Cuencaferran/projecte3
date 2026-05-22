@@ -180,6 +180,6 @@ dig @localhost exemple.com NS
 
 ## LINK TASCA06 FONAMENTS DEL SERVEIS DE DNS:
 
-**[Tasca06](Tasca06 Fonaments del Servei DNS )**
+**[Tasca06](Tasca06 Fonaments del Servei DNS Breu descripció )**
 ---
 
