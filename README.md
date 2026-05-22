@@ -64,35 +64,22 @@ Aquesta simulació reflecteix la **vida real dins d’una empresa IT**: una comb
 
 ---
 
-# 📁 Índex del Projecte 3: EverPia
+# 📂 Índex del Projecte 3
 
-Benvinguts al repositori del Projecte 3. A continuació es mostra la taula indexada amb l'accés directe a tots els productes i tasques de seguiment desenvolupats durant el projecte.
-
----
-
-## 📌 Productes (Lliuraments Formals)
-
-| Codi | Producte / Activitat | Enllaç Directe |
-| :--- | :--- | :---: |
-| **P01** | Kanban del projecte | [Anar a la carpeta](./P01%20Kanban%20del%20projecte/) |
-| **P02** | Repositori de GitHub del Projecte | [Anar a la carpeta](./P02%20Repositori%20de%20Github%20del%20Projecte/) |
-| **P03** | Rèplica Web Professional | [Anar a la carpeta](./P03%20Rèplica%20Web%20Professional/) |
-| **P04** | Documentació servidor DNS | [Anar a la carpeta](./P04%20Documentació%20servidor%20DNS/) |
-| **P05** | Presentació de sistemes d'Emmagatzematge | [Anar a la carpeta](./P05%20Presentacio%20de%20sistemes%20d´Emmagatzematge/) |
-| **P06** | Vídeo: Fonaments DNS | [Anar a la carpeta](./P06%20Video%20Fonaments%20DNS/) |
-| **P07** | ASG a EverPia: Informe visual per a inversors | [Anar a la carpeta](./P07%20ASG%20a%20EverPia%20informe%20visual%20per%20a%20inversors/) |
-
----
-
-## 📝 Tasques de Seguiment i Documentació
-
-| Codi | Descripció de la Tasca | Enllaç Directe |
-| :--- | :--- | :---: |
-| **T01** | Gestor de contrasenyes | [Anar a la carpeta](./Tasca01%20Gestor%20de%20contrasenyes/) |
-| **T03** | Gestió flexible de discos | [Anar a la carpeta](./tasca03%20Gestió%20flexible%20de%20discos/) |
-| **T04** | Serveis de directori: LDAP | [Anar a la carpeta](./Tasca04%20Serveis%20de%20directori.%20LDAP/) |
-| **T05** | Anàlisi de l'entorn i models de negoci per a clients | [Anar a la carpeta](./T05%20Anàlisi%20de%20l'entorn%20possibles%20models%20de%20negoci%20pels%20clients%20tecnològics%20de%20la%20consultoria/) |
-| **T06** | Fonaments del servei DNS | [Anar a la carpeta](./Tasca06%20Fonaments%20del%20servei%20DNS/) |
+| # | Carpeta / Tasca | Enllaç |
+|---|----------------|--------|
+| 1 | P01 Kanban del projecte | [`./P01%20Kanban%20del%20projecte/`](./P01%20Kanban%20del%20projecte/) |
+| 2 | P02 Repositori del projecte | [`./P02%20Repositori%20del%20projecte/`](./P02%20Repositori%20del%20projecte/) |
+| 3 | P03 Rèplica web | [`./P03%20R%C3%A8plica%20web/`](./P03%20R%C3%A8plica%20web/) |
+| 4 | P04 Publicació de la Configuració DNS a GitHub | [`./P04%20Publicació%20de%20la%20Configuració%20DNS%20a%20GitHub/`](./P04%20Publicació%20de%20la%20Configuració%20DNS%20a%20GitHub/) |
+| 5 | P05 Presentació sistemes emmagatzematge – LVM vs Storage Spaces | [`./P05%20Presentació%20sistemes%20emmagatzematge%20–%20LVM%20vs%20Storage%20Spaces/`](./P05%20Presentació%20sistemes%20emmagatzematge%20–%20LVM%20vs%20Storage%20Spaces/) |
+| 6 | P06. Vídeo formació DNS | [`./P06.%20V%C3%ADdeo%20formaci%C3%B3%20DNS/`](./P06.%20V%C3%ADdeo%20formaci%C3%B3%20DNS/) |
+| 7 | P07 Informe ASG per a EverPia Proposta d'accions sostenibles + Infografia per a inversors 1 Relació entre accions d'EverPia i Objectius de Desenvolupament Sostenible (ODS) | [`./P07%20Informe%20ASG%20per%20a%20EverPia%20Proposta%20d'accions%20sostenibles%20+%20Infografia%20per%20a%20inversors%201%20Relaci%C3%B3%20entre%20accions%20d'EverPia%20i%20Objectius%20de%20Desenvolupament%20Sostenible%20(ODS)/`](./P07%20Informe%20ASG%20per%20a%20EverPia%20Proposta%20d'accions%20sostenibles%20+%20Infografia%20per%20a%20inversors%201%20Relaci%C3%B3%20entre%20accions%20d'EverPia%20i%20Objectius%20de%20Desenvolupament%20Sostenible%20(ODS)/) |
+| 8 | Tasca01 Gestor de Contrasenyes | [`./Tasca01%20Gestor%20de%20Contrasenyes/`](./Tasca01%20Gestor%20de%20Contrasenyes/) |
+| 9 | tasca03 Gestió flexible de discos (LVM i Espais d'emmagatzematge) | [`./tasca03%20Gesti%C3%B3%20flexible%20de%20discos%20(LVM%20i%20Espais%20d'emmagatzematge)/`](./tasca03%20Gesti%C3%B3%20flexible%20de%20discos%20(LVM%20i%20Espais%20d'emmagatzematge)/) |
+| 10 | Tasca04 Serveis de Directori — LDAP Context | [`./Tasca04%20Serveis%20de%20Directori%20—%20LDAP%20Context/`](./Tasca04%20Serveis%20de%20Directori%20—%20LDAP%20Context/) |
+| 11 | Tasca06 Fonaments del Servei DNS Breu descripció | [`./Tasca06%20Fonaments%20del%20Servei%20DNS%20Breu%20descripci%C3%B3/`](./Tasca06%20Fonaments%20del%20Servei%20DNS%20Breu%20descripci%C3%B3/) |
+| 12 | README.md (aquest fitxer) | [`./README.md`](./README.md) |
 
 ---
 
