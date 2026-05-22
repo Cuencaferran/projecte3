@@ -36,6 +36,6 @@ scp usuari@IP-de-la-MV:/etc/bind/named.conf.options .
 
 ## LINK TASCA06 FONAMENTS DEL SERVEIS DE DNS: 
 
-**[Tasca 06”](https://github.com/Cuencaferran/projecte3/tree/main/Tasca06)** 
+**[Tasca 06”](Tasca06 Fonaments del Servei DNS )** 
 
 
