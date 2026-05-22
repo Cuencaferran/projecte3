@@ -55,3 +55,4 @@ Aquesta simulació reflecteix la vida real dins d’una empresa IT: una combinac
 👉 El vostre objectiu: sobreviure, mantenir-ho tot en funcionament i demostrar que sou l’equip que pot amb tot.
 
 💬 EverPia no dorm, però vosaltres tampoc.
+
