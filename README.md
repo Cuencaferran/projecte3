@@ -64,32 +64,35 @@ Aquesta simulació reflecteix la **vida real dins d’una empresa IT**: una comb
 
 ---
 
-## 📂 Índex del Projecte
+# 📁 Índex del Projecte 3: EverPia
 
-A continuació teniu l’enllaç directe a cada tasca i producte. Feu clic per accedir-hi ràpidament.
+Benvinguts al repositori del Projecte 3. A continuació es mostra la taula indexada amb l'accés directe a tots els productes i tasques de seguiment desenvolupats durant el projecte.
 
-### 🧩 Productes principals (P01 – P07)
+---
 
-| Codi | Descripció | Enllaç |
-|------|------------|--------|
-| **P01** | Kanban del projecte | [`./P01/README.md`](./P01/README.md) |
-| **P02** | Repositori del projecte | [`./P02/README.md`](./P02/README.md) |
-| **P03** | Rèplica web (WordPress) | [`./P03/README.md`](./P03/README.md) |
-| **P04** | Publicació de la Configuració DNS | [`./P04/README.md`](./P04/README.md) |
-| **P05** | Presentació sistemes emmagatzematge | [`./P05/README.md`](./P05/README.md) |
-| **P06** | Vídeo formació DNS | [`./P06/README.md`](./P06/README.md) |
-| **P07** | Informe ASG per a EverPia | [`./P07/README.md`](./P07/README.md) |
+## 📌 Productes (Lliuraments Formals)
 
-### 📘 Tasques complementàries (Tasca)
+| Codi | Producte / Activitat | Enllaç Directe |
+| :--- | :--- | :---: |
+| **P01** | Kanban del projecte | [Anar a la carpeta](./P01%20Kanban%20del%20projecte/) |
+| **P02** | Repositori de GitHub del Projecte | [Anar a la carpeta](./P02%20Repositori%20de%20Github%20del%20Projecte/) |
+| **P03** | Rèplica Web Professional | [Anar a la carpeta](./P03%20Rèplica%20Web%20Professional/) |
+| **P04** | Documentació servidor DNS | [Anar a la carpeta](./P04%20Documentació%20servidor%20DNS/) |
+| **P05** | Presentació de sistemes d'Emmagatzematge | [Anar a la carpeta](./P05%20Presentacio%20de%20sistemes%20d´Emmagatzematge/) |
+| **P06** | Vídeo: Fonaments DNS | [Anar a la carpeta](./P06%20Video%20Fonaments%20DNS/) |
+| **P07** | ASG a EverPia: Informe visual per a inversors | [Anar a la carpeta](./P07%20ASG%20a%20EverPia%20informe%20visual%20per%20a%20inversors/) |
 
-| Codi | Descripció | Enllaç |
-|------|------------|--------|
-| **Tasca01** | Gestor de Contrasenyes | [`./Tasca01/README.md`](./Tasca01/README.md) |
-| **tasca03** | Gestió flexible de disc (LVM) | [`./tasca03/README.md`](./tasca03/README.md) |
-| **Tasca04** | Serveis de Directori — LDAP | [`./Tasca04/README.md`](./Tasca04/README.md) |
-| **Tasca06** | Fonaments del Servei DNS | [`./Tasca06/README.md`](./Tasca06/README.md) |
+---
 
-> ℹ️ **Nota:** Els enllaços funcionaran sempre que l’estructura de carpetes del repositori mantingui els noms exactes que apareixen a la llista. Si algun README intern falta, podeu crear-lo o ajustar la ruta al fitxer `solucio.md` corresponent.
+## 📝 Tasques de Seguiment i Documentació
+
+| Codi | Descripció de la Tasca | Enllaç Directe |
+| :--- | :--- | :---: |
+| **T01** | Gestor de contrasenyes | [Anar a la carpeta](./Tasca01%20Gestor%20de%20contrasenyes/) |
+| **T03** | Gestió flexible de discos | [Anar a la carpeta](./tasca03%20Gestió%20flexible%20de%20discos/) |
+| **T04** | Serveis de directori: LDAP | [Anar a la carpeta](./Tasca04%20Serveis%20de%20directori.%20LDAP/) |
+| **T05** | Anàlisi de l'entorn i models de negoci per a clients | [Anar a la carpeta](./T05%20Anàlisi%20de%20l'entorn%20possibles%20models%20de%20negoci%20pels%20clients%20tecnològics%20de%20la%20consultoria/) |
+| **T06** | Fonaments del servei DNS | [Anar a la carpeta](./Tasca06%20Fonaments%20del%20servei%20DNS/) |
 
 ---
 
