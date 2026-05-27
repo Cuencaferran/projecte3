@@ -1,168 +1,60 @@
-🧭 T06: Fonaments del Servei DNS 📘 Breu descripció
+# Tasca 06: Fonaments del Servei DNS — Breu descripció 🌐
 
-Com a membres cada cop més integrats de l’equip tècnic de la consultora EverPia, teniu davant un nou repte. El vostre client, una empresa de màrqueting digital (DigiCore), experimenta de tant en tant errors de connectivitat en certes aplicacions.
+## 🏢 Cas Pràctic: L'auditoria per a DigiCore
 
-L’equip tècnic del client sospita que la causa principal podria ser una resolució de noms (DNS) incorrecta o lenta. Per aquest motiu, se us ha encarregat realitzar una auditoria teòrica i pràctica del servei DNS, amb l’objectiu de formar el personal del client i oferir eines de diagnosi ràpides i eficients.
+Com a membres de l'equip tècnic de la consultora **EverPia**, ens enfrontem a un nou repte. El nostre client, **DigiCore** (una empresa de màrqueting digital), està experimentant errors intermitents de connectivitat en certes aplicacions. L'equip tècnic sospita que la causa principal és una resolució de noms (DNS) incorrecta o lenta.
 
-🧩 Fase Teòrica: Sessió Formativa
+La nostra missió és realitzar una **auditoria teòrica i pràctica** del servei DNS per tal de formar el personal del client i oferir-los eines de diagnosi ràpides.
 
-Com a part d’aquesta formació, caldrà elaborar un material formatiu per al personal tècnic de DigiCore. Els directors tècnics han preparat una sèrie de conceptes clau que cal dominar abans de gravar la píndola formativa (vídeo de 10–15 minuts).
+---
 
-📚 Conceptes a explicar
+## 📚 Fase Teòrica: Sessió Formativa i Píndola de Vídeo
 
-Jerarquia i Estructura del DNS
-El DNS té una estructura en arbre jeràrquica:
+Per assegurar la màxima qualitat, hem d'elaborar material formatiu que cobreixi els següents conceptes clau:
 
-Root (Arrel)
+<details>
+<summary>🔍 Prem aquí per veure els conceptes teòrics clau a dominar</summary>
 
-TLDs (Top-Level Domains) → .com, .org, .cat, .es, etc.
+* **Jerarquia i Estructura:** Estructura en arbre del DNS (`Root` > `TLDs` > `Segon Nivell`).
+* **Procés de Resolució:** Diferències entre consultes iteratives i recursives. Concepte de *Root Server* i Servidor Autoritatiu.
+* **Tipus de Zones:** Zona directa i inversa; zona primària i zona secundària.
+* **Tipus de Registres Clau (Records):** Funció de `A`, `CNAME`, `MX`, `NS` i `SRV`.
+* **Conceptes Essencials:**
+    * *Resposta Autoritativa:* Què significa i com identificar-la.
+    * *Time To Live (TTL):* Funció i impacte en la propagació i rendiment.
+    * *Start of Authority (SOA):* Informació crítica que conté i per què és vital.
+    * *Reenviadors:* Condicionals i incondicionals.
+    * *Resolució Local:* Mecanismes sense servidor entre clients (protocol **mDNS**).
+</details>
 
-Dominis de segon nivell → tecnocampus.cat, xtec.cat, etc.
+### 🎬 Activitat Teòrica
+Preparació d'una píndola formativa en **vídeo (d'entre 10 i 15 minuts)** on s'expliquin de forma breu, clara i didàctica tots aquests conceptes per al personal de DigiCore.
 
-Cada nivell delega responsabilitats al nivell inferior.
+---
 
-Procés de Resolució
-Consulta iterativa: el client demana informació pas a pas a diversos servidors DNS.
+## 🛠️ Fase Pràctica: Diagnosi de Noms (Auditoria amb CLI)
 
-Consulta recursiva: el servidor DNS fa totes les cerques per l’usuari i li retorna la resposta final.
+Demostració de l'ús de les principals utilitats de diagnosi DNS en els sistemes de l'empresa (Linux/macOS i Windows). 
 
-Servidor d’arrel (Root Server): primer nivell del sistema DNS, coneix els servidors de TLD.
+*🖥️ **Entorn de proves:** Equip Zorin OS amb dues interfícies: una en **NAT** i la segona en **adaptador pont** (IP configurada segons les indicacions dels responsables).*
 
-Servidor autoritatiu: conté la informació real i verificada d’un domini.
+### 🎯 Quadre de Comandes d'Auditoria
 
-Tipus de Zones
-Zona directa: resol noms a adreces IP.
+| Mètode / Eina | Objectiu de la Prova | Comanda a Executar |
+| :--- | :--- | :--- |
+| **A. Avançada (`dig`)** | Consulta Bàsica de Registre A | `dig xtec.cat A` |
+| **A. Avançada (`dig`)** | Consulta de Servidors de Noms (NS) | `dig tecnocampus.cat NS` |
+| **A. Avançada (`dig`)** | Consulta Detallada SOA | `dig escolapia.cat SOA` |
+| **A. Avançada (`dig`)** | Consulta de Resolució Inversa | `dig -x 147.83.2.135` |
+| **B. Multiplataforma (`nslookup`)** | Consulta Bàsica no Autoritativa | `nslookup` (mode interactiu) <br> `> set type=A` <br> `> tecnocampus.cat` |
+| **B. Multiplataforma (`nslookup`)** | Consultes Autoritatives directes | `> server [IP_Servidor_NS]` <br> `> set type=A` <br> `> tecnocampus.cat` |
 
-Zona inversa: resol adreces IP a noms.
+### 🏠 Resolucions Locals
+Comprovació del funcionament de la resolució local en entorns de xarxa local on no es disposa de servidor de noms propi (evitant l'ús directe de les IPs gràcies a **mDNS**).
 
-Zona primària: conté la còpia original de la base de dades DNS.
+---
 
-Zona secundària: còpia de seguretat sincronitzada amb la primària.
+## 📋 Entregable d'aquesta carpeta
 
-Tipus de Registres Clau (Records) Tipus Descripció A Associa un nom de domini a una adreça IPv4. CNAME Defineix un àlies d’un altre domini. MX Indica els servidors de correu del domini. NS Defineix els servidors de noms autoritatius. SRV Especifica serveis disponibles dins d’un domini.
-Conceptes Essencials
-Resposta Autoritativa: indica que el servidor que respon és propietari o responsable del domini.
-
-TTL (Time To Live): temps de validesa d’una resposta DNS a la memòria cau.
-
-Un valor alt redueix trànsit, però propaga canvis més lentament.
-
-Un valor baix actualitza més ràpid, però augmenta el trànsit.
-
-SOA (Start of Authority): registre clau que identifica el servidor principal d’una zona i conté:
-
-Nom del servidor principal.
-
-Correu de l’administrador.
-
-Número de sèrie.
-
-Valors de refresc i caducitat.
-
-Reenviadors (Forwarders)
-Incondicionals: totes les peticions es reenvien a un servidor DNS concret.
-
-Condicionals: només es reenvien determinades peticions segons el domini.
-
-Resolució Local i mDNS
-Resolució local: permet la comunicació entre dispositius d’una xarxa sense servidor DNS.
-
-mDNS (Multicast DNS): utilitzat per dispositius com impressores o IoT per anunciar-se automàticament a la xarxa local (.local).
-
-🧪 Fase Pràctica: Diagnosi de Noms (Auditoria amb CLI)
-
-Per demostrar el funcionament real del DNS, caldrà utilitzar eines de diagnosi tant en Linux/macOS com en Windows.
-
-🖥️ Configuració de l’entorn
-
-Equip Zorin OS amb dues interfícies de xarxa:
-
-Primera: NAT.
-
-Segona: adaptador pont.
-
-IP configurada segons les indicacions dels responsables.
-
-🧠 A. Diagnosi Avançada amb dig (Linux / macOS) Comanda 1: Consulta bàsica de registre A dig xtec.cat A
-
-Anàlisi:
-
-Identificar la IP de resposta, el valor TTL i el servidor que ha respost.
-
-Comanda 2: Consulta de servidors de noms (NS) dig tecnocampus.cat NS
-
-Anàlisi:
-
-Determinar quins són els servidors de noms autoritatius del domini.
-
-Comanda 3: Consulta detallada SOA dig escolapia.cat SOA
-
-Anàlisi:
-
-Identificar el correu de l’administrador i el número de sèrie del domini.
-
-Comanda 4: Consulta de resolució inversa dig -x 147.83.2.135
-
-Anàlisi:
-
-Observar quin nom de domini està associat a aquesta adreça IP.
-
-💻 B. Comprovació de resolució amb nslookup (Multiplataforma)
-
-L’eina nslookup està disponible a pràcticament tots els sistemes operatius. Es pot usar amb arguments directes o en mode interactiu, que permet fer diverses consultes.
-
-Comandes bàsiques en mode interactiu:
-
-set type=A|MX|NS|SOA|TXT|ALL server [IP o nom del servidor DNS] exit
-
-Comanda 1: Consulta bàsica no autoritativa
-
-set type=A tecnocampus.cat
-
-Anàlisi:
-
-Explicar per què la resposta és no autoritativa (habitualment perquè prové de la memòria cau d’un servidor intermedi).
-
-Comanda 2: Consulta autoritativa
-
-server [IP del servidor de noms del domini tecnocampus.cat] set type=A tecnocampus.cat
-
-Anàlisi:
-
-Comparar la resposta amb la de la comanda 1.
-
-Identificar diferències en autoritat, TTL i fonts de dades.
-
-🌐 C. Resolucions Locals
-
-Per últim, s’ha de comprovar el funcionament de la resolució local, especialment útil en xarxes internes sense DNS propi.
-
-Exemples:
-
-Consulta per nom NetBIOS o mDNS (.local).
-
-Verificar la resolució entre equips dins de la mateixa LAN.
-
-📝 Activitat de la Fase Pràctica
-
-Creeu un document anomenat guia.md que inclogui:
-
-Les captures de pantalla de les sis comandes executades.
-
-L’anàlisi i explicació de cada resultat.
-
-Les proves de resolució local i conclusions.
-
-🎯 Objectiu Final
-
-A través d’aquesta activitat, l’equip tècnic de DigiCore serà capaç de:
-
-Comprendre el funcionament intern del DNS.
-
-Diagnosticar incidències de resolució de noms.
-
-Diferenciar respostes autoritatives i no autoritatives.
-
-Millorar la configuració i el rendiment del seu sistema DNS.
-
-🧑‍🏫 Resultat esperat: Una presentació clara i pràctica dels fonaments del DNS, complementada amb una demostració real d’eines CLI (dig, nslookup) i exemples de resolució local.
+* **`guia.md`**: Document guia amb els resultats, anàlisis i conclusions estructurades.
+* 📸 **Captures de pantalla**: S'han d'incloure les captures de les **6 comandes anteriors** provades a l'entorn de terminals, juntament amb les proves de resolució local.
