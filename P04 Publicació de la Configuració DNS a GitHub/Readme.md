@@ -176,6 +176,10 @@ dig @localhost exemple.com NS
 **Client:** Digicore  
 **Data de lliurament:** [Data actual]  
 
+## LINK PRESENTACIÓ DNS I FONAMENTS: 
+
+**[LINK PRESENTACIÓ DNS I FONAMENTS](https://gamma.app/docs/DNS-Conceptes-i-Diagnosi-Rapida-da8c0h8e332xonu)**
+
 ---
 
 
