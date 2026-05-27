@@ -64,23 +64,19 @@ Aquesta simulació reflecteix la **vida real dins d’una empresa IT**: una comb
 
 ---
 
-# 📂 Índex del Projecte 3
+# 📑 Índex interactiu del projecte
 
-| # | Carpeta / Tasca | Enllaç |
-|---|----------------|--------|
-| 1 | P01 Kanban del projecte | [`./P01%20Kanban%20del%20projecte/`](./P01%20Kanban%20del%20projecte/) |
-| 2 | P02 Repositori del projecte | [`./P02%20Repositori%20del%20projecte/`](./P02%20Repositori%20del%20projecte/) |
-| 3 | P03 Rèplica web | [`./P03%20R%C3%A8plica%20web/`](./P03%20R%C3%A8plica%20web/) |
-| 4 | P04 Publicació de la Configuració DNS a GitHub | [`./P04%20Publicació%20de%20la%20Configuració%20DNS%20a%20GitHub/`](./P04%20Publicació%20de%20la%20Configuració%20DNS%20a%20GitHub/) |
-| 5 | P05 Presentació sistemes emmagatzematge – LVM vs Storage Spaces | [`./P05%20Presentació%20sistemes%20emmagatzematge%20–%20LVM%20vs%20Storage%20Spaces/`](./P05%20Presentació%20sistemes%20emmagatzematge%20–%20LVM%20vs%20Storage%20Spaces/) |
-| 6 | P06. Vídeo formació DNS | [`./P06.%20V%C3%ADdeo%20formaci%C3%B3%20DNS/`](./P06.%20V%C3%ADdeo%20formaci%C3%B3%20DNS/) |
-| 7 | P07 Informe ASG per a EverPia Proposta d'accions sostenibles + Infografia per a inversors 1 Relació entre accions d'EverPia i Objectius de Desenvolupament Sostenible (ODS) | [`./P07%20Informe%20ASG%20per%20a%20EverPia%20Proposta%20d'accions%20sostenibles%20+%20Infografia%20per%20a%20inversors%201%20Relaci%C3%B3%20entre%20accions%20d'EverPia%20i%20Objectius%20de%20Desenvolupament%20Sostenible%20(ODS)/`](./P07%20Informe%20ASG%20per%20a%20EverPia%20Proposta%20d'accions%20sostenibles%20+%20Infografia%20per%20a%20inversors%201%20Relaci%C3%B3%20entre%20accions%20d'EverPia%20i%20Objectius%20de%20Desenvolupament%20Sostenible%20(ODS)/) |
-| 8 | Tasca01 Gestor de Contrasenyes | [`./Tasca01%20Gestor%20de%20Contrasenyes/`](./Tasca01%20Gestor%20de%20Contrasenyes/) |
-| 9 | tasca03 Gestió flexible de discos (LVM i Espais d'emmagatzematge) | [`./tasca03%20Gesti%C3%B3%20flexible%20de%20discos%20(LVM%20i%20Espais%20d'emmagatzematge)/`](./tasca03%20Gesti%C3%B3%20flexible%20de%20discos%20(LVM%20i%20Espais%20d'emmagatzematge)/) |
-| 10 | Tasca04 Serveis de Directori — LDAP Context | [`./Tasca04%20Serveis%20de%20Directori%20—%20LDAP%20Context/`](./Tasca04%20Serveis%20de%20Directori%20—%20LDAP%20Context/) |
-| 11 | Tasca06 Fonaments del Servei DNS Breu descripció | [`./Tasca06%20Fonaments%20del%20Servei%20DNS%20Breu%20descripci%C3%B3/`](./Tasca06%20Fonaments%20del%20Servei%20DNS%20Breu%20descripci%C3%B3/) |
-| 12 | README.md (aquest fitxer) | [`./README.md`](./README.md) |
-
+- [P01 Kanban del projecte](./P01%20Kanban%20del%20projecte.md)
+- [P02 Repositori del projecte](./P02%20Repositori%20del%20projecte.md)
+- [P03 Rèplica web](./P03%20R%C3%A8plica%20web.md)
+- [P04 Publicació de la Configuració DNS a GitHub](./P04%20Publicaci%C3%B3%20de%20la%20Configuraci%C3%B3%20DNS%20a%20GitHub.md)
+- [P05 Presentació sistemes emmagatzematge – LVM vs Storage Spaces](./P05%20Presentaci%C3%B3%20sistemes%20emmagatzematge%20%E2%80%93%20LVM%20vs%20Storage%20Spaces.md)
+- [P06. Vídeo formació DNS](./P06.%20V%C3%ADdeo%20formaci%C3%B3%20DNS.md)
+- [Tasca01 Gestor de Contrasenyes](./Tasca01%20Gestor%20de%20Contrasenyes.md)
+- [tasca03 Gestió flexible de discos (LVM i Espais d’emmagatzematge)](./tasca03%20Gesti%C3%B3%20flexible%20de%20discos%20%28LVM%20i%20Espais%20d%E2%80%99emmagatzematge%29.md)
+- [Tasca04 Serveis de Directori — LDAP Context](./Tasca04%20Serveis%20de%20Directori%20%E2%80%94%20LDAP%20Context.md)
+- [Tasca06 Fonaments del Servei DNS Breu descripció](./Tasca06%20Fonaments%20del%20Servei%20DNS%20Breu%20descripci%C3%B3.md)
+- [README.md](./README.md)
 ---
 
 ## ✅ Estat del Projecte
