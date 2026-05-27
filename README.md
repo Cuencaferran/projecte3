@@ -64,19 +64,33 @@ Aquesta simulació reflecteix la **vida real dins d’una empresa IT**: una comb
 
 ---
 
-# 📂 Índex del projecte (obre directament cada tasca)
+# PROJECTE3-1
 
-- [P01 Kanban del projecte](./P01%20Kanban%20del%20projecte.md)
-- [P02 Repositori del projecte](./P02%20Repositori%20del%20projecte.md)
-- [P03 Rèplica web](./P03%20R%C3%A8plica%20web.md)
-- [P04 Publicació de la Configuració DNS a GitHub](./P04%20Publicaci%C3%B3%20de%20la%20Configuraci%C3%B3%20DNS%20a%20GitHub.md)
-- [P05 Presentació sistemes emmagatzematge – LVM vs Storage Spaces](./P05%20Presentaci%C3%B3%20sistemes%20emmagatzematge%20%E2%80%93%20LVM%20vs%20Storage%20Spaces.md)
-- [P06. Vídeo formació DNS](./P06.%20V%C3%ADdeo%20formaci%C3%B3%20DNS.md)
-- [Tasca01 Gestor de Contrasenyes](./Tasca01%20Gestor%20de%20Contrasenyes.md)
-- [tasca03 Gestió flexible de discos (LVM i Espais d’emmagatzematge)](./tasca03%20Gesti%C3%B3%20flexible%20de%20discos%20%28LVM%20i%20Espais%20d%E2%80%99emmagatzematge%29.md)
-- [Tasca04 Serveis de Directori — LDAP Context](./Tasca04%20Serveis%20de%20Directori%20%E2%80%94%20LDAP%20Context.md)
-- [Tasca06 Fonaments del Servei DNS Breu descripció](./Tasca06%20Fonaments%20del%20Servei%20DNS%20Breu%20descripci%C3%B3.md)
-- [README.md](./README.md)
+Benvingut/da al repositori del **Projecte 3-1**. A continuació trobaràs l'índex interactiu amb els accessos directes a cadascuna de les pràctiques (P) i tasques del projecte.
+
+---
+
+## 📌 Índex de Continguts
+
+### 📂 Pràctiques del Projecte
+* [Pràctica 01: Kanban del projecte](./P01%20Kanban%20del%20projecte)
+* [Pràctica 02: Repositori del projecte](./P02%20Repositori%20del%20projecte)
+* [Pràctica 03: Rèplica web](./P03%20Rèplica%20web)
+* [Pràctica 04: Publicació de la Configuració DNS a GitHub](./P04%20Publicació%20de%20la%20Configuració%20DNS%20a%20GitHub)
+* [Pràctica 05: Presentació sistemes emmagatzematge – LVM vs Storage Spaces](./P05%20Presentació%20sistemes%20emmagatzematge%20–%20LVM%20vs%20Storage%20Spaces)
+* [Pràctica 06: Vídeo formació DNS](./P06.%20Vídeo%20formació%20DNS)
+
+### 📝 Tasques
+* [Tasca 01: Gestor de Contrasenyes](./Tasca01%20Gestor%20de%20Contrasenyes)
+* [Tasca 03: Gestió flexible de discos (LVM i Espais d'emmagatzematge)](./tasca03%20Gestió%20flexible%20de%20discos%20\(LVM%20i%20Espais%20d'emmagatzematge\))
+* [Tasca 04: Serveis de Directori — LDAP 🌱 Context](./Tasca04%20Serveis%20de%20Directori%20—%20LDAP%20🌱%20Context)
+* [Tasca 06: Fonaments del Servei DNS Breu descripció](./Tasca06%20Fonaments%20del%20Servei%20DNS%20Breu%20descripció)
+
+---
+
+## 🚀 Com navegar pel projecte
+1. Fes **clic** sobre qualsevol dels enllaços de l'índex superior.
+2. S'obrirà automàticament la carpeta seleccionada amb els seus fitxers i documentació corresponent.
 ---
 
 ## ✅ Estat del Projecte
