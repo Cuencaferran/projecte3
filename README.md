@@ -64,19 +64,19 @@ Aquesta simulació reflecteix la **vida real dins d’una empresa IT**: una comb
 
 ---
 
-# 📑 Índex interactiu del projecte
+# 📑 Índex del projecte
 
-- [P01 Kanban del projecte](./P01%20Kanban%20del%20projecte.md)
-- [P02 Repositori del projecte](./P02%20Repositori%20del%20projecte.md)
-- [P03 Rèplica web](./P03%20R%C3%A8plica%20web.md)
-- [P04 Publicació de la Configuració DNS a GitHub](./P04%20Publicaci%C3%B3%20de%20la%20Configuraci%C3%B3%20DNS%20a%20GitHub.md)
-- [P05 Presentació sistemes emmagatzematge – LVM vs Storage Spaces](./P05%20Presentaci%C3%B3%20sistemes%20emmagatzematge%20%E2%80%93%20LVM%20vs%20Storage%20Spaces.md)
-- [P06. Vídeo formació DNS](./P06.%20V%C3%ADdeo%20formaci%C3%B3%20DNS.md)
-- [Tasca01 Gestor de Contrasenyes](./Tasca01%20Gestor%20de%20Contrasenyes.md)
-- [tasca03 Gestió flexible de discos (LVM i Espais d’emmagatzematge)](./tasca03%20Gesti%C3%B3%20flexible%20de%20discos%20%28LVM%20i%20Espais%20d%E2%80%99emmagatzematge%29.md)
-- [Tasca04 Serveis de Directori — LDAP Context](./Tasca04%20Serveis%20de%20Directori%20%E2%80%94%20LDAP%20Context.md)
-- [Tasca06 Fonaments del Servei DNS Breu descripció](./Tasca06%20Fonaments%20del%20Servei%20DNS%20Breu%20descripci%C3%B3.md)
-- [README.md](./README.md)
+- [P01 Kanban del projecte](#p01-kanban-del-projecte)
+- [P02 Repositori del projecte](#p02-repositori-del-projecte)
+- [P03 Rèplica web](#p03-rèplica-web)
+- [P04 Publicació de la Configuració DNS a GitHub](#p04-publicació-de-la-configuració-dns-a-github)
+- [P05 Presentació sistemes emmagatzematge – LVM vs Storage Spaces](#p05-presentació-sistemes-emmagatzematge--lvm-vs-storage-spaces)
+- [P06. Vídeo formació DNS](#p06-vídeo-formació-dns)
+- [Tasca01 Gestor de Contrasenyes](#tasca01-gestor-de-contrasenyes)
+- [tasca03 Gestió flexible de discos (LVM i Espais d’emmagatzematge)](#tasca03-gestió-flexible-de-discos-lvm-i-espais-demmagatzematge)
+- [Tasca04 Serveis de Directori — LDAP Context](#tasca04-serveis-de-directori--ldap-context)
+- [Tasca06 Fonaments del Servei DNS Breu descripció](#tasca06-fonaments-del-servei-dns-breu-descripció)
+- [README.md](#readmemd)
 ---
 
 ## ✅ Estat del Projecte
